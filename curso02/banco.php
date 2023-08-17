@@ -1,30 +1,8 @@
 <?php
 
-function exibeMensagem(string $mensagem) {
-    echo $mensagem . PHP_EOL;
-}
-
-function sacar(array $conta, float $valorSaque) : array {
-    if ($valorSaque > $conta['saldo']) {
-        exibeMensagem("$conta[titular], seu saldo é Insuficiente.");
-    } else {
-        $conta['saldo'] -= $valorSaque;
-        exibeMensagem("Saque realizado! $conta[titular], seu saldo é $conta[saldo]."); 
-     
-    } 
-    return $conta;
-}
-
-function depositar(array $conta, float $valorDeposito) : array {
-    if ( $valorDeposito > 0) {
-         $conta['saldo'] += $valorDeposito;
-        exibeMensagem("Deposito realizado! $conta[titular], seu saldo é $conta[saldo]."); 
-    } else {
-        exibeMensagem('Valores de depósitos precisam ser positivos');
-    }
-   
-    return $conta;
-}
+//include 'funcoes.php'; include deve chamar arquivos que não são essenciais para o programa, pois ele só da warning, caso não encorntre o arquivo, e tenta rodar
+// já o require dá erro. para a execução. o once, adiociona uma unica vez
+require_once 'funcoes.php';
 
 $contasCorrentes = [
     '123.456.789-10' => [
@@ -48,5 +26,5 @@ $contasCorrentes['123.456.789-10'] = depositar($contasCorrentes['123.456.789-10'
 $contasCorrentes['123.456.789-12'] = depositar($contasCorrentes['123.456.789-12'], -1000);
 
 foreach ($contasCorrentes as $cpf => $conta){
-    exibeMensagem($cpf . "-" . $conta['titular'] . "-" . $conta['saldo']);
+    exibeMensagem( "$cpf - {$conta['titular']} - {$conta['saldo']}");
 }
