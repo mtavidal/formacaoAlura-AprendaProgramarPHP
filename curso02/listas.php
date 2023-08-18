@@ -5,7 +5,11 @@ $algumaIdade = $idadeList[2];
 
 $idadeList[] = 20;
 
+list($idadeVini, $idadeJoao) = $idadeList;
+
 //echo $algumaIdade;
 foreach ($idadeList as $indice => $idade) {
     echo "$indice = $idade" . PHP_EOL;
 };
+
+echo $idadeVini;
