@@ -8,7 +8,7 @@ Repositório com os exercícios, desafios e exemplos propostos pela Alura na for
 
 1.  PHP: conceitos, lidando com dados, loops e mais.
 2.  Avançando com PHP: Arrays, Strings, Função e Web.
-3.
+3.  PHP: manipulando coleções com Arrays.
 4.
 5.
 6.
