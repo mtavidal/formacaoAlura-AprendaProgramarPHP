@@ -7,3 +7,11 @@ if (str_starts_with($url,'https')){
 } else {
     echo 'não é segura';
 }
+
+echo PHP_EOL;
+
+if (str_ends_with($url,'.br')){
+    echo 'é do Brasil';
+} else {
+    echo 'não é do Brasil';
+}
