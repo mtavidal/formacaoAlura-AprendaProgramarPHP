@@ -10,7 +10,7 @@ Repositório com os exercícios, desafios e exemplos propostos pela Alura na for
 2.  Avançando com PHP: Arrays, Strings, Função e Web.
 3.  PHP: manipulando coleções com Arrays.
 4.  PHP Strings: manipulando textos com PHP.
-5.
+5.  Orientação a Objetos com PHP: Classes, métodos e atributos.
 6.
 7.
 8.
