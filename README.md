@@ -12,5 +12,5 @@ Repositório com os exercícios, desafios e exemplos propostos pela Alura na for
 4.  PHP Strings: manipulando textos com PHP.
 5.  Orientação a Objetos com PHP: Classes, métodos e atributos.
 6.  Avançando com Orientação a Objetos com PHP: Herança, Polimorfismo e Interfaces.
-7.
+7.  PHP I/O: trabalhando com arquivos e streams.
 8.
