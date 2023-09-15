@@ -13,4 +13,4 @@ Repositório com os exercícios, desafios e exemplos propostos pela Alura na for
 5.  Orientação a Objetos com PHP: Classes, métodos e atributos.
 6.  Avançando com Orientação a Objetos com PHP: Herança, Polimorfismo e Interfaces.
 7.  PHP I/O: trabalhando com arquivos e streams.
-8.
+8.  PHP Exceptions: tratamento de erros.
